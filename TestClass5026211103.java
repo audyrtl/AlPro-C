@@ -22,9 +22,9 @@ public class TestClass5026211103 {
 			System.out.println("The dice is rolling...");
 			System.out.println( );
 
-			System.out.println("Temperature in Celcius : " +comp.fToC(degreesF));
-			System.out.println("Hypotenuse : " +comp.hypotenuse(a, b));
-			System.out.println("Sum of the dice : " +comp.roll());
+			System.out.println("Temp in celsius is " +comp.fToC(degreesF));
+			System.out.println("Hypotenuse is " +comp.hypotenuse(a, b));
+			System.out.println("The sum of the dice values is " +comp.roll());
 
 	}
 
