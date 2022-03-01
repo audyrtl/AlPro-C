@@ -15,8 +15,8 @@ public class ComputeMethods5026211103 {
 	//Dice
 	public int roll() {
 		Random rndm = new Random();
-			int Roll1 = rndm.nextInt(7)+1;
-			int Roll2 = rndm.nextInt(7)+1;
+			int Roll1 = rndm.nextInt(6)+1;
+			int Roll2 = rndm.nextInt(6)+1;
 		return(Roll1+Roll2);
 	}
 
